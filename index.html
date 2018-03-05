@@ -1,28 +1,125 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!DOCTYPE html>
-<html>
-  
+<html lang="en" >
+
 <head>
-  <title>
-    Andy Lam
-  </title>
+  <meta charset="UTF-8">
+  <title>Bootstrap my Baby</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
 
 <body>
-  <h2> 
-    Welcome to my page!
-  </h2>
-  <img src="http://i.imgur.com/EV1LFPg.jpg"; width=300px; />
-  <p>
-    My name is Andy Lam. I graduated from <a href="http://www.ubc.ca/about/">UBC</a> with a B.Sc. majoring in Biochemistry. During the completion of my degree I took CPSC 301: Computing for life sciences, where I was introduced to programming using Python 3. I found that I really enjoyed coding. Now I just started learning html and css, so I made this little site. It will surely improve as my skills develop. I hope you find this site fun to read!
-  </p>
-  <p>
-    For now the site is entirely in HTML so it looks really basic, but once I get confortable with CSS I'll come back with a really nice-looking site! May 31st 2017.
-  </p>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+		
+<!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="300">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<img id="profile-pic" src="https://avatars1.githubusercontent.com/u/29108375?s=400&u=e615855c257b181946441983d590dec03f28c471&v=4" alt="My Avatar">
+				<img id="codewars-badge" src="https://www.codewars.com/users/Aywl/badges/large" alt="Codewars Badge">
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#coverpage-section">Top</a></li>
+				<li><a href="#description-section">Description</a></li>
+				<li><a href="#examples-section">Examples</a></li>
+				<li><a href="#contact-section">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+</head>
+
+<body>
+
+<!-- Coverpage Section -->
+	<div id="coverpage-section" class="section container-fluid">
+		<div id="titlebox">
+			<div class="main-title"> Welcome to Octoproblems. </div>
+			<div class="main-subtitle"> Has anyone really been far as decided to use even go want to do look more like? </div>
+		</div>
+		<div class="align-bottom">
+			<button type="button" class="btn">A</button>
+			<button type="button" class="btn">B</button>
+			<button type="button" class="btn">C</button>
+		</div>
+	</div>
+	
+<!-- Description Section -->
+	<div id="description-section" class="section container-fluid">
+		<div class="title"> Description. </div>
+		<div class="subtitle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et faucibus ante, quis condimentum sapien. Integer eu neque at nisl sodales posuere quis ac tortor. Suspendisse mattis blandit molestie. Nulla commodo porta ultrices. Etiam posuere nisl at purus sagittis, sed malesuada metus cursus. Curabitur bibendum egestas est sit amet bibendum. Mauris rhoncus, lacus eu volutpat rhoncus, turpis arcu porta enim, eu posuere mi urna ut lectus. Quisque semper augue sed tortor semper, sit amet sollicitudin felis mollis. In hac habitasse platea dictumst. Etiam rutrum volutpat metus luctus iaculis. Duis vel mattis arcu, a accumsan dui. </div>
+	</div>
+	
+<!-- Examples Section -->
+	<div id="examples-section" class="section container-fluid">
+		<h2 class="title center">In lieu of actual projects or content, please enjoy these pictures.</h2>
+		<div class="container">
+<!-- Row 1 -->
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Vancouver_City_Lights_%2815305645876%29.jpg/1280px-Vancouver_City_Lights_%2815305645876%29.jpg" alt="1x1">
+				</div>
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Downtown_Calgary_from_SAIT.jpg/1280px-Downtown_Calgary_from_SAIT.jpg" alt="1x2">
+				</div>
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tokyo_landscape_view_from_Tokyo_Tower.jpg/1280px-Tokyo_landscape_view_from_Tokyo_Tower.jpg" alt="1x3">
+				</div>
+			</div>
+<!-- Row 2 -->
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Seattle_waterfront_at_night_2.jpg/1280px-Seattle_waterfront_at_night_2.jpg" alt="2x1">
+				</div>
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Regents_Place_in_London_as_seen_from_Great_Portland_Street_in_August_2011.jpg/1280px-Regents_Place_in_London_as_seen_from_Great_Portland_Street_in_August_2011.jpg" alt="2x2">
+				</div>
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/BC_Ferry%2C_Tsawwassen%2C_British_Columbia%2C_Canada.jpg/1280px-BC_Ferry%2C_Tsawwassen%2C_British_Columbia%2C_Canada.jpg" alt="2x3">
+				</div>
+			</div>
+<!-- Row 3 -->
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Union_Bay_off_Denman_Island%2C_Vancouver_Island%2C_British_Columbia%2C_Canada.jpg/1280px-Union_Bay_off_Denman_Island%2C_Vancouver_Island%2C_British_Columbia%2C_Canada.jpg" alt="3x1">
+				</div>
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Peachland%2C_British_Columbia.jpg/1280px-Peachland%2C_British_Columbia.jpg" alt="3x2">
+				</div>
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Vancouver_Water_Bus%2C_Vancouver%2C_British_Columbia.jpg/1280px-Vancouver_Water_Bus%2C_Vancouver%2C_British_Columbia.jpg" alt="3x3">
+				</div>
+			</div>
+<!-- Row 4 -->
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cresent_Beach_Pier_%2815276498736%29.jpg/1280px-Cresent_Beach_Pier_%2815276498736%29.jpg" alt="4x1">
+				</div>
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Vanier_Park%2C_Vancouver%2C_BC%2C_2016.jpg/1280px-Vanier_Park%2C_Vancouver%2C_BC%2C_2016.jpg" alt="4x2">
+				</div>
+				<div class="col-sm-4">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Black_Tusk_4.jpg/1280px-Black_Tusk_4.jpg" alt="4x3">
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Contact Section -->
+	<div id="contact-section" class="section container-fluid">
+		<div class="title"> Contact. </div>
+		<div class="subtitle"> Nothing here yet! But I swear, I'm a real person.</div>
+	</div>
+</body>
+  
+  
+
 </body>
 
-<footer>
-  Written in HTML and hosted with GitHub Pages
-</footer>
-  
 </html>
